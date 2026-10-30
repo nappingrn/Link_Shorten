@@ -1,0 +1,31 @@
+# Virtual environment (uv creates this)
+.venv/
+
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+
+# Build output (uv build)
+build/
+dist/
+*.egg-info/
+
+# Tool caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Secrets / local config
+.env
+.env.*
+
+# Local data (a link shortener will likely use a local DB)
+*.db
+*.sqlite3
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
